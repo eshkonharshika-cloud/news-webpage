@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BBC Style News Layout</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-top">
+      <!-- Left -->
+      <div class="nav-left">
+        <button class="icon-btn" aria-label="Menu">
+          ☰
+        </button>
+        <button class="icon-btn" aria-label="Search">
+          🔍
+        </button>
+      </div>
+
+      <!-- Center Logo -->
+      <div class="logo">
+        <span>B</span><span>B</span><span>C</span>
+      </div>
+
+      <!-- Right -->
+      <div class="nav-right">
+        <button class="btn-primary">Register</button>
+        <button class="btn-link">Sign In</button>
+      </div>
+    </div>
+
+    <!-- Categories -->
+    <div class="nav-bottom">
+      <a class="active" href="#">Home</a>
+      <a href="#">News</a>
+      <a href="#">Sport</a>
+      <a href="#">Business</a>
+      <a href="#">Innovation</a>
+      <a href="#">Health</a>
+      <a href="#">Culture</a>
+      <a href="#">Arts</a>
+      <a href="#">Travel</a>
+      <a href="#">Earth</a>
+      <a href="#">Audio</a>
+      <a href="#">Video</a>
+      <a href="#">Live</a>
+    </div>
+  </nav>
+ <div class="page-wrapper">
+  <!-- Main -->
+  <main class="container">
+
+    <!-- Latest News -->
+    <section>
+      <h2 class="section-title">
+        Latest News <span>→</span>
+      </h2>
+
+      <div class="latest-grid">
+        <article class="card">
+          <span class="tag">Analysis</span>
+          <h3>Why Venezuela has Marco Rubio's handprints all over it</h3>
+        </article>
+
+        <article class="card">
+          <span class="tag">New</span>
+          <h3>The U.S. imposed a blockade on sanctioned oil tankers tied to Venezuela...</h3>
+        </article>
+
+        <article class="card">
+          <h3>Turbulence is getting worse. Would it be better if planes looked more like birds?</h3>
+        </article>
+
+        <article class="card">
+          <h3>Why everyone is talking about Heated Rivalry's Team Canada fleece</h3>
+        </article>
+      </div>
+    </section>
+
+    <!-- Main News Grid -->
+    <section class="main-news-grid">
+
+  <!-- LEFT COLUMN -->
+  <div class="news-col left">
+
+    <article class="news-card image-card">
+      <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/e377/live/378deff0-ebcc-11f0-b385-5f48925de19a.jpg.webp" alt="">
+      <h2 class="headline">
+        <a href="#">US discussing options to acquire Greenland, including use of military</a>
+      </h2>
+      <p>It came as European allies rallied behind Denmark, which is pushing back against Trump's ambitions.</p>
+      <div class="meta">5 hrs ago • US & Canada</div>
+    </article>
+
+    <article class="news-card image-card">
+      <img src="https://ichef.bbci.co.uk/news/640/cpsprodpb/2d56/live/df9b46c0-ebc7-11f0-98c0-b72e1e8ed823.jpg.webp" alt="">
+      <h2 class="headline">
+        <a href="#">Fear and uncertainty: Venezuelans face up to future without Maduro</a>
+      </h2>
+      <p>The BBC spoke to Venezuelans after the seizure by US forces.</p>
+      <div class="meta">1 hr ago • Latin America</div>
+    </article>
+
+  </div>
+
+  <!-- CENTER COLUMN (LIVE) -->
+  <div class="news-col center">
+
+    <article class="news-card live-card">
+      <img src="https://ichef.bbci.co.uk/ace/standard/800/cpsprodpb/c960/live/9adba620-ebcb-11f0-b385-5f48925de19a.png.webp" alt="">
+      
+      <div class="live-badge">
+        <span class="dot"></span> LIVE
+      </div>
+
+      <h2 class="headline">
+        <a href="#">US says it has seized tanker in Atlantic linked to Venezuelan oil</a>
+      </h2>
+      <p>Earlier, several military aircraft were tracked over the North Atlantic heading towards the Marinera.</p>
+    </article>
+
+  </div>
+
+  <!-- RIGHT COLUMN -->
+  <div class="news-col right">
+
+    <article class="text-card">
+      <h3 class="headline">
+        <a href="#">The painful questions for Nato and the EU as Trump threatens Greenland</a>
+      </h3>
+      <p>The White House has said that 'utilising the US military' is always an option.</p>
+      <div class="meta">15 hrs ago • BBC InDepth</div>
+    </article>
+
+    <article class="text-card">
+      <h3 class="headline">
+        <a href="#">Century-old tumours could reveal why more young people are getting bowel cancer</a>
+      </h3>
+      <p>Bowel cancer in people under 50 is increasing worldwide.</p>
+      <div class="meta">9 hrs ago • Health</div>
+    </article>
+
+    <article class="text-card">
+      <h3 class="headline">
+        <a href="#">Warner Bros urges shareholders to reject 'inferior' Paramount offer</a>
+      </h3>
+      <p>The board said it recommended the deal with Netflix instead.</p>
+      <div class="meta">1 hr ago • Business</div>
+    </article>
+
+    <article class="text-card">
+      <h3 class="headline">
+        <a href="#">How turbulence is getting worse – and what airlines can do</a>
+      </h3>
+      <p>Climate change is making air travel bumpier.</p>
+      <div class="meta">4 hrs ago • Science</div>
+    </article>
+
+    <article class="text-card">
+      <h3 class="headline">
+        <a href="#">Why Team Canada’s fleece has become a global obsession</a>
+      </h3>
+      <p>Fashion meets national pride.</p>
+      <div class="meta">6 hrs ago • Culture</div>
+    </article>
+
+  </div>
+
+</section>
+
+
+<!-- section divider -->
+ <div class="section-divider"></div>
+
+    <!-- Explore Section -->
+    <section class="cbc-banner">
+  <div class="cbc-banner-inner">
+
+    <!-- TEXT -->
+    <div class="cbc-banner-copy">
+      <h2 class="cbc-banner-title">Explore all of CBC</h2>
+      <p class="cbc-banner-subtitle">
+        Your source for Entertainment, News, Sports and more
+      </p>
+    </div>
+
+    <!-- MEDIA (VIDEO / IMAGE) -->
+    <div class="cbc-banner-media">
+      <video
+        autoplay
+        muted
+        loop
+        playsinline
+        aria-hidden="true"
+        poster="/a/assets/CBC_banner_animation-placeholder.png"
+        >
+        <source
+            src="/a/assets/CBC_banner_animation-hvec.mp4"
+            type="video/mp4"
+        >
+        <source
+            src="/a/assets/CBC_banner_animation-default.webm"
+            type="video/webm"
+        >
+        </video>
+
+    </div>
+
+  </div>
+</section>
+
+
+   <section class="top-stories">
+
+  <!-- LEFT FEATURE CARD -->
+  <a class="card feature" href="#">
+    <div class="image">
+      <span class="badge listen">Listen</span>
+      <img src="https://i.cbc.ca/ais/8fe2243e-2cbf-4d88-9038-1363a22ccd82,1765149555513/full/max/0/default.jpg" alt="">
+    </div>
+    <div class="body">
+      <h2 class="headline">
+        Scott Galloway’s operating manual for being a man today
+      </h2>
+      <p class="description">
+        Podcaster and professor Scott Galloway believes young men are struggling with feelings of alienation, loneliness and failure.
+      </p>
+    </div>
+  </a>
+
+  <!-- RIGHT COLUMN -->
+  <div class="right">
+
+    <!-- TOP RIGHT -->
+    <a class="card wide" href="#">
+      <div class="image">
+        <span class="badge world">World</span>
+        <img src="https://i.cbc.ca/ais/1.7087765,1705723050000/full/max/0/default.jpg" alt="">
+      </div>
+      <h3 class="headline">
+        Deep in the Amazon, researchers have uncovered a complex of ancient cities
+      </h3>
+    </a>
+
+    <!-- BOTTOM RIGHT -->
+    <div class="bottom">
+
+      <a class="card small" href="#">
+        <div class="image">
+          <span class="badge fitness">Fitness</span>
+          <img src="https://i.cbc.ca/ais/1.7089507,1705699121000/full/max/0/default.jpg" alt="">
+        </div>
+        <h4 class="headline">Gentle ways to approach fitness</h4>
+      </a>
+
+      <a class="card small" href="#">
+        <div class="image">
+          <span class="badge home">Home</span>
+          <img src="https://i.cbc.ca/ais/1.7374054,1730824076000/full/max/0/default.jpg" alt="">
+        </div>
+        <h4 class="headline">
+          Couple spends 30 years transforming this 63-room castle
+        </h4>
+      </a>
+
+    </div>
+  </div>
+
+</section>
+
+
+  </main>
+
+  <div class="section-divider"></div>
+    <footer class="site-footer">
+
+    <!-- TOP FOOTER -->
+    <div class="footer-top">
+        <div class="footer-grid">
+
+        <div class="footer-col">
+            <h4><a href="#">My Account</a></h4>
+            <ul>
+            <li><a href="#">Profile</a></li>
+            <li><a href="#">CBC Gem</a></li>
+            <li><a href="#">Newsletters</a></li>
+            <li><a href="#">About CBC Accounts</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4><a href="#">Connect with CBC</a></h4>
+            <ul>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">X</a></li>
+            <li><a href="#">YouTube</a></li>
+            <li><a href="#">Instagram</a></li>
+            <li><a href="#">Mobile</a></li>
+            <li><a href="#">RSS</a></li>
+            <li><a href="#">Podcasts</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4><a href="#">Contact CBC</a></h4>
+            <ul>
+            <li><a href="#">Submit Feedback</a></li>
+            <li><a href="#">Help Centre</a></li>
+            <li><a href="#">Audience Relations, CBC</a></li>
+            <li><a href="#">P.O. Box 500 Station A</a></li>
+            <li><a href="#">Toronto, ON</a></li>
+            <li><a href="#">Canada, M5W 1E6</a></li>
+            <li class="footer-phone">
+                <a href="tel:18663064636">
+                Toll-free (Canada only):<br>
+                <strong>1-866-306-4636</strong>
+                </a>
+            </li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4><a href="#">About CBC</a></h4>
+            <ul>
+            <li><a href="#">Corporate Info</a></li>
+            <li><a href="#">Sitemap</a></li>
+            <li><a href="#">Reuse & Permission</a></li>
+            <li><a href="#">Terms of Use</a></li>
+            <li><a href="#">Privacy</a></li>
+            <li><a href="#">Jobs</a></li>
+            <li><a href="#">Our Unions</a></li>
+            <li><a href="#">Independent Producers</a></li>
+            <li><a href="#">Political Ads Registry</a></li>
+            <li><a href="#">AdChoices</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col">
+            <h4><a href="#">Services</a></h4>
+            <ul>
+            <li><a href="#">Ombudsman</a></li>
+            <li><a href="#">Corrections and Clarifications</a></li>
+            <li><a href="#">Public Appearances</a></li>
+            <li><a href="#">Commercial Services</a></li>
+            <li><a href="#">CBC Shop</a></li>
+            <li><a href="#">Doing Business with Us</a></li>
+            <li><a href="#">Renting Facilities</a></li>
+            <li><a href="#">Radio Canada International</a></li>
+            <li><a href="#">CBC Lite</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-col footer-accessibility">
+            <h4><a href="#">Accessibility</a></h4>
+            <p><a href="#">
+            It is a priority for CBC to create products that are accessible
+            to all in Canada including people with visual, hearing,
+            motor and cognitive challenges.
+            </a></p>
+            <p><a href="#">Closed Captioning and Described Video is available for many CBC shows
+            Closed Captioning and Described Video is available for many CBC shows
+            offered on</a> <a href="#">CBC Gem</a>.
+            </p>
+            <ul>
+            <li><a href="#">About CBC Accessibility</a></li>
+            <li><a href="#">Accessibility Feedback</a></li>
+            </ul>
+        </div>
+
+        </div>
+    </div>
+
+    <!-- BOTTOM FOOTER -->
+    <div class="footer-bottom">
+        <div class="footer-bottom-inner">
+
+        <a href="#" class="footer-logo">
+            CBC <span>Radio-Canada</span>
+        </a>
+
+        <div class="footer-copy">
+            ©2026 CBC/Radio-Canada. All rights reserved.
+        </div>
+
+        <div class="footer-link">
+            <a href="#">Visitez Radio-Canada.ca</a>
+        </div>
+
+        </div>
+    </div>
+
+    </footer>
+
+</div>
+
+</body>
+</html>
